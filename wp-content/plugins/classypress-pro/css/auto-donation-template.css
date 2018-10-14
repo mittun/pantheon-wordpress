@@ -1,0 +1,96 @@
+/**
+ * CSS Styles for Auto Donation Template
+ */
+
+body.mittun-auto-donate-template #content {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+body.mittun-auto-donate-template form > p:not(.recurring-options-container) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body[data-form-style="minimal"].page-template-template-mittun-auto-donate .minimal-form-input {
+  padding-top: 0 !important;
+}
+body.mittun-auto-donate-template .classy-currency,
+body.mittun-auto-donate-template .classy-donation-form.short .classy-currency {
+  top: 0 !important;
+  position: relative !important;
+  left: -10px !important;
+}
+body.mittun-auto-donate-template .mittun-classy-popup .mittun-popup-text-top {
+  margin: 0 0 30px;
+}
+body.mittun-auto-donate-template .mittun-classy {
+  background-size: cover !important;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+body.mittun-auto-donate-template .mittun-classy-container {
+  width: 48.93617020799999%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(58, 58, 58, 0.5);
+  padding: 5% 5% 3.333%;
+  background: rgb(255,255,255);
+  background: rgba(255,255,255, .8);
+  color: #333;
+  position: relative;
+  bottom: 60px;
+}
+body.mittun-auto-donate-template .mittun-classy-container h1.classy-form-title {
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 0 30px;
+  line-height: 1;
+}
+body.mittun-auto-donate-template .mittun-classy-container .classy-form-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  margin: 0 0 30px;
+  padding-left: 15px;
+}
+body.mittun-auto-donate-template .mittun-classy-container .classy-form-description > p,
+body.mittun-auto-donate-template .mittun-classy-container .classy-form-description > h1,
+body.mittun-auto-donate-template .mittun-classy-container .classy-form-description > h2,
+body.mittun-auto-donate-template .mittun-classy-container .classy-form-description > h3,
+body.mittun-auto-donate-template .mittun-classy-container .classy-form-description > h4,
+body.mittun-auto-donate-template .mittun-classy-container .classy-form-description > h5,
+body.mittun-auto-donate-template .mittun-classy-container .classy-form-description > h6 {
+  color: #333;
+}
+
+body.mittun-auto-donate-template .mittun-classy-container input:not([type="submit"]),
+body.mittun-auto-donate-template .mittun-classy-container input:not([type="reset"]) {
+  background: #FFF;
+  padding-left: 15px !important;
+}
+body.mittun-auto-donate-template form > p:not(.recurring-options-container) input[name="amount"] {
+  margin-bottom: 0 !important;
+  border: 1px solid #979797;
+}
+body.mittun-auto-donate-template form > p.recurring-options-container {
+  padding-left: 15px;
+}
+body.mittun-auto-donate-template .mittun-classy-container .classy-currency {
+  color: #333;
+}
+
+@media screen and (max-width: 767px) {
+  body.mittun-auto-donate-template .mittun-classy-container {
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  body.mittun-auto-donate-template form > p.recurring-options-container label {
+    display: block;
+    width: 100%;
+  }
+}

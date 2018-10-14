@@ -1,0 +1,18 @@
+/**
+ * Custom CSS Styles for The ClassyPress Donation Page
+ * Use the selectors below to add or override styles generated from ClassyPress.
+ *
+ * This template has a body class of 'mittun-auto-donate-template' to allow you
+ * to target this page individually.
+ */
+
+
+body.mittun-auto-donate-template .mittun-classy { }
+
+body.mittun-auto-donate-template .mittun-classy-container { }
+
+body.mittun-auto-donate-template .mittun-classy-container h1.classy-form-title { }
+
+body.mittun-auto-donate-template .mittun-classy-container .classy-form-description { }
+
+body.mittun-auto-donate-template .mittun-classy-container input { }
